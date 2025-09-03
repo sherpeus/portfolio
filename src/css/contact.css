@@ -1,0 +1,41 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+input,textarea{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(--secondary-text);
+    padding:15px;
+    font-family: inherit;
+}
+input:focus{
+    border:2px solid var(--btn-color);
+
+}
+textarea:focus{
+     border:2px solid var(--btn-color);
+}
+button{
+    background-color: var(--btn-color);
+    padding:15px;
+    color:#fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+i{
+    color: var(--btn-color);
+}
+.contact-info span{
+    margin-left: 20px;
+}

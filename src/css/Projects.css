@@ -1,0 +1,61 @@
+*{
+    --btn-color:#ec2d01;
+    --secondary-text:#6E6E6E;
+    --main-text:#1A1A1A;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  color:var(--main-text);
+ 
+  
+}
+
+h1, h2,h3,h4, .latin {
+  font-family:  'Space Grotesk', sans-serif;
+}
+.project-container{
+    display: flex;
+  flex-wrap: wrap;       /* allows wrapping to next line */
+  gap: 20px;             /* space between cards */
+  justify-content: center; /* center the boxes horizontally */
+}
+.project-card{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    max-width: 350px;
+    height: fit-content;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+
+}
+
+
+.project-icon{
+    width: 100%;
+    height: auto;
+    border-radius:15px;
+    border: 1px solid var(--secondary-text);
+   
+}.project-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+  background: #ffffff; /* optional: brighten background on hover */
+}
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,26 @@
+*{
+    --btn-color:#ec2d01;
+    --secondary-text:#6E6E6E;
+    --main-text:#1A1A1A;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+ 
+}
+
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color:var(--main-text);
+ 
+  background-color: #fff;
+}
+
+h1, h2, .latin {
+  font-family:  'Space Grotesk', sans-serif;
+}
+.red{
+  color:var(--btn-color);
+}

@@ -1,0 +1,157 @@
+/* General Timeline Styles */
+.main h3,p {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--main-text);
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color:var(--secondary-text);
+}
+
+.achievement-timeline {
+  position: relative;
+  margin-left: 40px;
+  padding-left: 20px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  border-radius: 10px;
+  background-color: var(--secondary-text);
+}
+
+.achievement-card {
+  position: relative;
+  margin-bottom: 30px;
+  font-family: 'DM Sans', sans-serif;
+}
+.image{
+  width:50%;
+  border-radius: 15px;
+}
+.difficulty-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  left: -28px;
+  top: 0;
+}
+
+.easy { background-color: #4ade80; }
+.medium { background-color: #facc15; }
+.hard { background-color: var(--btn-color); }
+
+.title {
+  font-weight: bold;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: var(--secondary-text);
+  margin-top: 2px;
+}
+
+.description {
+  margin-top: 4px;
+}
+
+.skills {
+  font-size: 0.85rem;
+  color: var(--main-text);
+  margin-top: 2px;
+}
+
+.proof-link {
+  font-size: 0.85rem;
+  color: var(--btn-color);
+  text-decoration: underline;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.expand-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--btn-color);
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.expand-btn.rotated {
+  transform: rotate(180deg);
+}
+
+.details {
+  margin-left: 24px;
+  margin-top: 4px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-in-out, opacity 0.35s ease-in-out;
+  opacity: 0;
+}
+
+.details.expanded {
+  max-height: 500px; /* adjust as needed */
+  opacity: 1;
+}
+
+/* ---------------- Responsive Styles ---------------- */
+@media (max-width: 768px) {
+  .achievement-timeline {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+
+  .timeline-line {
+    left: 5px;
+    width: 3px;
+  }
+
+  .difficulty-circle {
+    width: 12px;
+    height: 12px;
+    left: -22px;
+  }
+
+  .title {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .expand-btn {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+
+  .details {
+    margin-left: 0;
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

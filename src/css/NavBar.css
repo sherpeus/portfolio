@@ -1,0 +1,90 @@
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 2000;
+  box-sizing: border-box; /* include padding in width */
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;       /* wrap to next line if needed */
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;       /* never exceeds screen width */
+  overflow: hidden;      /* hide anything outside viewport */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--main-text);
+  font-weight: 500;
+  transition: color 0.2s ease;
+  white-space: nowrap;       /* prevent breaking inside text */
+  display: block;
+  max-width: 100%;           /* ensure links don’t overflow */
+  overflow: hidden;
+  text-overflow: ellipsis;   /* show … if too long */
+}
+
+.nav-links li {
+  background-color: inherit;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.nav-links li a:hover {
+  color: var(--btn-color);
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--main-text);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.nav-links li .active span {
+  color: var(--btn-color);
+  
+  border-bottom: 2px solid var(--btn-color);
+  margin-bottom: 6px;
+}
+
+/* Mobile: stack vertically */
+@media screen and (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    display: none;               /* hidden by default */
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-links.open {
+    display: flex;
+    transform: scaleY(1);        /* animate dropdown */
+  }
+}
