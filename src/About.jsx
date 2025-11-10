@@ -62,8 +62,9 @@ function About(){
             <NavLink to="/projects"> <p>Need proof? Check out my projects! <i class="fa-solid fa-arrow-up-right-from-square "></i></p></NavLink>
         </div>
         <div className="contact-sec">
-            <NavLink to="/contact"><button className="contact-b2">Get in Touch</button></NavLink>
             <p>Have a project or just want to say hi? I’d love to chat!</p> 
+            <NavLink to="/contact"><button className="contact-b2">Get in Touch</button></NavLink>
+            
         </div>
     </div>
     )

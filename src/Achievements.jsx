@@ -34,6 +34,9 @@ function AchievementCard({ data }) {
         {data.img &&(
           <img src={data.img} className="image"/>
         )}
+        
+          
+          
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import "./css/Home.css";
 import { useFadeIn } from "./fadeIn";
 import { NavLink } from 'react-router-dom';
+import Projects from './Projects';
 function Home(){
     const loaded = useFadeIn();
     return(

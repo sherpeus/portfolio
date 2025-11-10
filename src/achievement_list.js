@@ -6,7 +6,15 @@ export const achievements = [
     description: "Led my team (Bytebustors) to the semifinals by developing an MVP for a startup idea.",
     proof_link: "",
     skills: ["Team Leadership", "MVP Development", "Presentation", "React js"],
-    img:"https://media.licdn.com/dms/image/v2/D4E22AQGkaYRzvcwmEA/feedshare-shrink_2048_1536/B4EZiY4a4OGYAo-/0/1754911591931?e=1759968000&v=beta&t=uLJR0kjdNuXdxk-U-NqKjJi2cbz59Cu9Sqtt62hoJyw"
+    img:"https://media.licdn.com/dms/image/v2/D4E22AQHUKyzhsSs4qw/feedshare-shrink_2048_1536/B4EZiY4a4MHoAo-/0/1754911588644?e=1764201600&v=beta&t=Uzx_eyYwZ17-HW2sBDyFbmpys1LSokeseJUyolBCphA"},
+  {
+    title: "Completed Andrew Ng’s Deep Learning Specialization with hands-on projects",
+    date: "Sept 2025",
+    difficulty: 2, // medium
+    description: "Completed full Coursera DL specialization with hands-on assignments.",
+    proof_link: "https://www.coursera.org/account/accomplishments/specialization/TAHALA5BT7B7",
+    skills: ["CNNs", "RNNs", "Python","numpy","Transfromers","DNNs","Advanced Algorithms"],
+    code:'<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="248a61da-4414-4c29-9c49-4ef7458c7a7c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>'
   },
   {
     title: "Achieved global rank 8,225 on LeetCode, placing myself in the top 24%",

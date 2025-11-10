@@ -28,6 +28,7 @@ main{
     align-items: center;
     width: 50%;
     height: 100vh;
+    padding-left: 5%;
     
 }
 .container{
@@ -45,10 +46,11 @@ main{
 
 }
 .responsive-img{
-  width: 100%;
-  height: auto;
+  width: 90%;
   display: block;
   transform: translateY(-10%);
+ 
+  height:auto;
 }
 .contact-s{
     display: flex;
@@ -63,7 +65,7 @@ main{
     display: flex;
     align-items: center;
     background-color: var(--btn-color);
-    
+    max-width: 300px;
     padding: 0.6em 1.2em;
     font-size: 1em;
     font-weight: 500;
@@ -116,7 +118,7 @@ p{
   main {
     
     display: flex;          /* Use flex, not inline-flex */
-    flex-direction: column; /* Stack left and right vertically */
+    flex-direction: column-reverse; /* Stack left and right vertically */
     width: 100%;            /* Take full width */
   }
   .responsive-img{
@@ -171,7 +173,7 @@ p{
 
   .contact {
     width: 90%;
-    max-width: 250px;
+   width: 250px;
     justify-content: center;
   }
 
