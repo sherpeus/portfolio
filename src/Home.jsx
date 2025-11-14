@@ -15,8 +15,8 @@ function Home(){
             I like to balance logic and creativity in everything I do.</p>
 
             <div className="contact-s">
-                <NavLink to="/contact"><button className='contact'>Contact Me &nbsp;<i class="fa-solid fa-chevron-right"></i></button></NavLink>
-                <button className='contact'>Download CV&nbsp;<i class="fa-solid fa-chevron-right"></i></button>
+                <NavLink to="/contact"><button className='contact'>Contact Me</button></NavLink>
+                <button className='contact'>Download CV</button>
             </div>
             </div>
 

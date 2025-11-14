@@ -6,7 +6,10 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <button className="menu-btn" onClick={() => setOpen(!isOpen)}>☰</button>
+      <button className={`menu-btn ${isOpen ? 'open' : ''}`} onClick={() => setOpen(!isOpen)}>
+<span className="icon">☰</span>
+<span className="icon-cross">✖</span>
+</button>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
           <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>

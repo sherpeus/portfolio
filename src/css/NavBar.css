@@ -64,8 +64,40 @@
 /* Mobile: stack vertically */
 @media screen and (max-width: 768px) {
   .menu-btn {
-    display: block;
-  }
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-btn .icon,
+.menu-btn .icon-cross {
+  position: absolute;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  color:red;
+}
+
+.menu-btn .icon-cross {
+  transform: rotate(-90deg);
+  opacity: 0;
+}
+
+.menu-btn.open .icon {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.menu-btn.open .icon-cross {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
 
   .nav-links {
     flex-direction: column;

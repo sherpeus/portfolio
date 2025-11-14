@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ paddingTop: "60px" }}> {/* space for fixed navbar */}
+      <div style={{ paddingTop: "60px" }}> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

@@ -48,8 +48,10 @@ function Contact() {
 
       <div className="contact-info">
         <h3>Let's Connect</h3>
+        <div className="connect-apps">
         <span> <a href="https://www.linkedin.com/in/mark-rodrigo/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a> </span>
         <span><a href="https://www.youtube.com/@md_pedia1" target='_blank'><i class="fa-brands fa-youtube"></i></a></span>
+        </div>
       </div>
     </div>
   );

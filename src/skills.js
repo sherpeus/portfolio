@@ -31,8 +31,8 @@ const Skills = [
     technology: ["react", "firebase", "tailwind"],
     description: "A lightweight web app made for students to collaborate and study. They can form groups, share notes, and have meetings. This is a group project made for fun.",
     img_url: "/Images/NoteWave.png",
-    available: false,
-    link: "",
+    available: true,
+    link: "https://github.com/oshankkkk/NoteWave",
     difficulty:2
   },
   {
