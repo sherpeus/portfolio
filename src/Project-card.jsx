@@ -13,7 +13,7 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
 return (
 <div className="card-main">
 <button onClick={onClose} id="close-btn">
-<i className="fa-solid fa-xmark"></i>
+<i class="fa-regular fa-circle-xmark"></i>
 </button>
 
 

@@ -28,10 +28,16 @@ h2,h3{
     margin-bottom: 0%;
 }
 .img{
-    width: fit-content;
+    width: 70%;
     height: auto;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     max-width: 250px;
+    left:50%;
+    right: 50%;
+}
+.project-icon{
+  border: none;
+  border-radius: 10px 10px 0 0;
 }
 ul{
     list-style: none;
@@ -67,24 +73,15 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--secondary-text);
     border-radius: 50%;
     background-color: inherit;
     cursor: pointer;
     size: auto;
+    font-weight:900;
 
 }
 i{
     color: var(--secondary-text);
-}
-
-.project-container img{
-  width:auto;
-  border-radius: 10px 10px 0 0;
-  border:none;
-}
-a:focus, a:hover{
-  color:var(--btn-color);
 }
 /* Smartphones (max-width: 768px) */
 @media screen and (max-width: 768px) {
