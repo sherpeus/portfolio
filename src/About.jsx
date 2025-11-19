@@ -15,7 +15,8 @@ function About() {
     { name: "Java", url: "https://img.shields.io/badge/Java-007396?logo=coffeescript&logoColor=white&style=flat" },
     { name: "JavaScript", url: "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat" },
     { name: "Rust", url: "https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=flat" },
-    {name:"SQL",url:"https://img.shields.io/badge/SQL-00758F?logo=sqlite&logoColor=white&style=flat"}
+    {name:"SQL",url:"https://img.shields.io/badge/SQL-00758F?logo=sqlite&logoColor=white&style=flat"},
+     { name: "React", url: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat" }
 ];
 
   const technologies = [
@@ -23,7 +24,9 @@ function About() {
     { name: "Figma", url: "https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=flat" },
     {name:"git",url:"https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat"},
     {name:"GitHub",url:"https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat"},
-    {name:"Intellij IDEA",url:"https://img.shields.io/badge/IntelliJ%20IDEA-000000?logo=intellijidea&logoColor=white&style=flat"}
+    {name:"Intellij IDEA",url:"https://img.shields.io/badge/IntelliJ%20IDEA-000000?logo=intellijidea&logoColor=white&style=flat"},
+    {name:"Flask",url:"https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"},
+    {name:"Firebase",url:"https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"}
 ];
 
   const concepts = [
@@ -31,7 +34,7 @@ function About() {
     { name: "Machine Learning", url: "https://img.shields.io/badge/Machine%20Learning-102230?style=flat" },
     { name: "Deep Learning", url: "https://img.shields.io/badge/Deep%20Learning-8A2BE2?style=flat" },
     { name: "OOP", url: "https://img.shields.io/badge/OOP-FF6F00?style=flat" },
-    { name: "React", url: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat" },
+   
    
   ];
 
@@ -49,7 +52,7 @@ function About() {
       <div className="badges">
         <select id="skills" value={selected} onChange={(e) => setSelected(e.target.value)}>
           <option value="*">--All--</option>
-          <option value="lang">Languages</option>
+          <option value="lang">Languages & frameworks</option>
           <option value="tech">Technologies</option>
           <option value="concept">Concepts & principles</option>
         </select>

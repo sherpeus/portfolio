@@ -27,18 +27,13 @@
    
     color:#d63024;
     border:1px solid #d63024;
-    
-}
-.contact-b2:hover{
-     color:#fff;
-     background-color: var(--secondary-text);
-     border: none;
-   
-     
-    
+    border:none;
+    font-weight: bold;
+    text-decoration: underline;
     
     
 }
+
 h2{
     font-size: 8vh;
     left: 0;
@@ -163,6 +158,9 @@ select:focus{
   .contact-b2 {
     width: 100%;
     max-width: 150px;
+    border: 1px solid var(--btn-color);
+    font-weight: normal;
+    text-decoration: none;
   }
   .contact-sec{
     flex-direction: column;
@@ -190,6 +188,9 @@ select:focus{
 
   .contact-b2 {
     font-size: 1em;
+    border: 1px solid var(--btn-color);
+    font-weight: normal;
+    text-decoration: none;
   }
 }
 i{
