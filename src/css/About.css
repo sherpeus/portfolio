@@ -22,12 +22,12 @@
     cursor: pointer;
    
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    width:250px;
+    width:150px;
     background-color: #fff;
    
     color:#d63024;
     border:1px solid #d63024;
-    margin-top: 5%;
+    
 }
 .contact-b2:hover{
      color:#fff;
@@ -85,6 +85,32 @@ h2{
 .inside i{
   color:#93bae0;
 }
+.badges {
+  display: flex;
+  justify-content: flex-end; /* pushes items to the right */
+  align-items: center;
+  gap: 10px; /* optional spacing */
+  flex-direction: column;
+}
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;   /* allows badges to move to next line */
+  gap: 10px;         /* space between badges */
+  align-items: center;
+}
+select {
+  border: 2px solid var(--btn-color);
+  padding: 10px;
+  border-radius:10px;
+  color: var(--secondary-text);
+  font-weight: bold;
+}
+select:focus{
+  border-color: var(--btn-color);
+}
+.badge:hover{
+  cursor: pointer;
+}
 @keyframes load{
     0%{
       width:50%;
@@ -135,7 +161,7 @@ h2{
 
   .contact-b2 {
     width: 100%;
-    max-width: 250px;
+    max-width: 150px;
   }
   .contact-sec{
     flex-direction: column;
