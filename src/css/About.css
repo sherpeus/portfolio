@@ -104,6 +104,7 @@ select {
   border-radius:10px;
   color: var(--secondary-text);
   font-weight: bold;
+  background-color: #fff;
 }
 select:focus{
   border-color: var(--btn-color);
