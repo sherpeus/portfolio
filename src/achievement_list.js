@@ -3,8 +3,9 @@ export const achievements = [
     title:"Achieved a contest rating above 1700 in leetcode",
     date:"Dec 2025",
     difficulty:2,
-    description:"Managed to hit a 1700 rating on leetcode gaining a global contest ranking of 84000 and placing myself now in the top 10% of contestants.",
-    skills:["Competitive Programming","DSA"]
+    description:"Managed to hit a 1700 rating on leetcode gaining a global contest ranking of 84,900 and placing myself now in the top 10% of contestants.",
+    skills:["Competitive Programming","DSA"],
+    img:"./dist/Images/lc.png"
   },
   {
     title: "Led my team to the semifinals of CodeSprintX Sri Lanka with a functional startup MVP",
