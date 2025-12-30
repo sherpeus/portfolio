@@ -29,7 +29,7 @@ export const achievements = [
     date: "Ongoing",
     difficulty: 1, // medium
     description: "Achieved global rank 8,225, demonstrating strong problem-solving and algorithmic skills.",
-    proof_link: "https://leetcode.com/yourprofile",
+    proof_link: "https://leetcode.com/Sherpy",
     skills: ["Algorithms", "Data Structures"]
   },
   {
