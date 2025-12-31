@@ -5,7 +5,7 @@ export const achievements = [
     difficulty:2,
     description:"Managed to hit a 1700 rating on leetcode gaining a global contest ranking of 84,900 and placing myself now in the top 10% of contestants.",
     skills:["Competitive Programming","DSA"],
-    img:"/src/assets/lc.png"
+    img:"/public/Images/lc.png"
   },
   {
     title: "Led my team to the semifinals of CodeSprintX Sri Lanka with a functional startup MVP",
@@ -14,7 +14,7 @@ export const achievements = [
     description: "Led my team (Bytebustors) to the semifinals by developing an MVP for a startup idea.",
     proof_link: "",
     skills: ["Team Leadership", "MVP Development", "Presentation", "React js"],
-    img:"https://media.licdn.com/dms/image/v2/D4E22AQHUKyzhsSs4qw/feedshare-shrink_2048_1536/B4EZiY4a4MHoAo-/0/1754911588644?e=1764201600&v=beta&t=Uzx_eyYwZ17-HW2sBDyFbmpys1LSokeseJUyolBCphA"},
+    img:"/public/Images/NoteWave.png"},
   {
     title: "Completed Andrew Ng’s Deep Learning Specialization with hands-on projects",
     date: "Sept 2025",
@@ -53,5 +53,12 @@ export const achievements = [
   description:" Achieved 9A passess in GCE O/L Examination (2022/2023)",
   date: "June 2023",
   difficulty:2
+},
+{
+  title: "Completed the beginner and intermediate Python courses offered by the University of Moratuwa",
+  description: " Completed the beginner and intermediate Python courses offered by the University of Moratuwa",
+  date: "Apr 2022 - Sept 2022",
+  difficulty:0,
+  skills:["Python programming","Computational thinking"]
 }
 ];

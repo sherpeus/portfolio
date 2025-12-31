@@ -1,11 +1,12 @@
+
 const Skills = [
   {
     name: "Melodic",
     technology: ["python", "sqllite3", "pytube", "customtkinter", "pygame", "pyaudio","threading"],
-    description: "It is used to download youtube videos for free using its URL. The app converts the video into mp3 and stores it in the database. We can play them later using the app. This was made only for educational purposes.",
+    description: "It is used to download youtube videos for free using its URL. The app converts the video into mp3 and stores it in the database. We can play them later using the app. This was made only for educational purposes. The project is not added to github to avoid ethical issues. Therefore the project link will redirect you to the video where I shows how made the application",
     img_url: "/Images/Melodic.png",
-    available: false,
-    link: "",
+    available: true,
+    link: "https://youtu.be/_ZONLz8PPYE?si=-uD5QFG_PYTxfO32",
     difficulty:2
   },
   {

@@ -104,6 +104,9 @@ select {
 select:focus{
   border-color: var(--btn-color);
 }
+
+
+
 .badge:hover{
   cursor: pointer;
 }

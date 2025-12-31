@@ -44,14 +44,14 @@ function About() {
         <h2>Hey, I'm <span className="red">Mark Dinol</span></h2>
         <p>
           I’m a competitive programmer, machine learning enthusiast, self-taught painter, and lifelong chess player.  
-          Also, a forever Potterhead and proud Percy Jackson fan — because life’s better with a little magic and mythology.  
+          Also, a forever Potterhead and proud Percy Jackson fan, because life’s better with a little magic and mythology.  
           Whether I’m solving problems, mixing colors, or strategizing on the chessboard, I love blending logic with creativity.
         </p>
       </div>
     <h3>Skills & tools I'm Familiar with</h3><br/><br/>
       <div className="badges">
         <select id="skills" value={selected} onChange={(e) => setSelected(e.target.value)}>
-          <option value="*">--All--</option>
+          <option value="*">All</option>
           <option value="lang">Languages & frameworks</option>
           <option value="tech">Technologies</option>
           <option value="concept">Concepts & principles</option>
