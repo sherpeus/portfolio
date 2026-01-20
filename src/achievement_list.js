@@ -5,7 +5,7 @@ export const achievements = [
     difficulty:2,
     description:"Managed to hit a 1700 rating on leetcode gaining a global contest ranking of 84,900 and placing myself now in the top 10% of contestants.",
     skills:["Competitive Programming","DSA"],
-    img:"/public/Images/lc.png"
+    img:"/Images/lc.png"
   },
   {
     title: "Led my team to the semifinals of CodeSprintX Sri Lanka with a functional startup MVP",
@@ -14,7 +14,7 @@ export const achievements = [
     description: "Led my team (Bytebustors) to the semifinals by developing an MVP for a startup idea.",
     proof_link: "",
     skills: ["Team Leadership", "MVP Development", "Presentation", "React js"],
-    img:"/public/Images/NoteWave.png"},
+    img:"/Images/NoteWave.png"},
   {
     title: "Completed Andrew Ng’s Deep Learning Specialization with hands-on projects",
     date: "Sept 2025",

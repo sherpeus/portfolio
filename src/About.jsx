@@ -16,7 +16,15 @@ function About() {
     { name: "JavaScript", url: "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat" },
     { name: "Rust", url: "https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=flat" },
     {name:"SQL",url:"https://img.shields.io/badge/SQL-00758F?logo=sqlite&logoColor=white&style=flat"},
-     { name: "React", url: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat" }
+     { name: "React", url: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat" },
+     {
+  name: "Elasticsearch",
+  url: "https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white&style=flat"
+},
+{
+  name: "NoSQL",
+  url: "https://img.shields.io/badge/NoSQL-4479A1?logo=mongodb&logoColor=white&style=flat"
+}
 ];
 
   const technologies = [

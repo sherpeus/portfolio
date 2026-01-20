@@ -16,7 +16,7 @@ function Home(){
 
             <div className="contact-s">
                 <NavLink to="/contact"><button className='contact'>Contact Me</button></NavLink>
-                <a href="/src/assets/cv.pdf" download="Mark Rodrigo.pdf">
+                <a href="/cv.pdf" download="Mark Rodrigo.pdf">
                 <button className='contact'>Download CV</button>
                 </a>
             </div>
