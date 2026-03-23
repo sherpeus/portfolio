@@ -53,6 +53,16 @@ const Skills = [
   available: true,
   link: "https://github.com/sherpeus/Habit-pilot",
   difficulty:1
+},
+{
+  name: "Mom OS",
+  technology:["Python","Rust","Elasticsearch","Tauri"],
+  description: "Momos is a real-time behavioural analysis and live nudging system that monitors user activity patterns and intelligently suggests productivity nudges.",
+  img_url:"/Images/momOS.png",
+  available:true,
+  link: "https://github.com/sherpeus/Momos-Production",
+  difficulty:4
+
 }
 
 ];

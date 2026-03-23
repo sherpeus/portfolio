@@ -13,7 +13,7 @@ function Projects() {
     <div className={`main-projects ${loaded ? "fade-in" : ""}`} id="top">
       <h2>Projects</h2>
       <p>
-        As a first-year CS student, I’ve been building lightweight apps and tools using React, Python, Firebase, and even a bit of machine learning. These projects reflect the skills I’m developing and the things I’m passionate about — from collaborative tools to custom programming languages to simple game mechanics.
+        As a second-year CS student, I’ve been building lightweight apps and tools using React, Python, Firebase, and even a bit of machine learning. These projects reflect the skills I’m developing and the things I’m passionate about — from collaborative tools to custom programming languages to simple game mechanics.
         <br />
         They’re not just assignments — they’re experiments, challenges, and sometimes just plain fun.
         <br />
