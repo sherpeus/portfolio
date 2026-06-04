@@ -110,6 +110,9 @@ select:focus{
 .badge:hover{
   cursor: pointer;
 }
+.article-section{
+  margin-top: 10px;
+}
 @keyframes load{
     0%{
       width:50%;

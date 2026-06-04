@@ -52,7 +52,7 @@ function Contact() {
         <span> <a href="https://www.linkedin.com/in/mark-rodrigo/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a> </span>
         <span><a href="https://www.youtube.com/@md_pedia1" target='_blank'><i class="fa-brands fa-youtube"></i></a></span>
         <span><a href="https://medium.com/@mdrodrigo2006" target='_blank'><i class="fa fa-pencil" aria-hidden="true"></i></a></span>
-        <span><a href='https://github.com/sherpeus' target='_blank'><i class="fa fa-github-alt" aria-hidden="true"></i></a></span>
+        <span><a href='https://github.com/sherpeus' target='_blank'><i class="fa-brands fa-square-github"></i></a></span>
         </div>
       </div>
     </div>

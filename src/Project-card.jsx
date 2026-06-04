@@ -19,7 +19,7 @@ return (
 
 <h3>{project_details.name}</h3>
 <img
-src={project_details.img_url || "/Images/sample-image.png"}
+src={project_details.img_url || "/Images/sample-image2.png"}
 className='img'
 alt='project'
 />

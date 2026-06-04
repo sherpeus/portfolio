@@ -39,4 +39,9 @@ i{
 .contact-info span{
     margin-left: 20px;
 }
+.connect-apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 

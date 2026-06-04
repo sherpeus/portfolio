@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Skills from "./skills";
+
 import "./css/Projects.css";
 import Project_info from "./Project-card";
 import { useFadeIn } from "./fadeIn";
@@ -13,11 +14,10 @@ function Projects() {
     <div className={`main-projects ${loaded ? "fade-in" : ""}`} id="top">
       <h2>Projects</h2>
       <p>
-        As a second-year CS student, I’ve been building lightweight apps and tools using React, Python, Firebase, and even a bit of machine learning. These projects reflect the skills I’m developing and the things I’m passionate about — from collaborative tools to custom programming languages to simple game mechanics.
+        I’m focused on deep backend development, systems engineering, machine learning and algorithmic optimization.
         <br />
-        They’re not just assignments — they’re experiments, challenges, and sometimes just plain fun.
-        <br />
-        Each one has a purpose. Each one taught me something.  
+       
+        Each project was built to break apart a foundational engineering challenge and understand it completely. 
         Check them out below. <span className="red">(Click on each project card to view an elaborated explanation)</span>
       </p>
 
@@ -29,7 +29,7 @@ function Projects() {
             onClick={() => setIdx(i)}
           >
             <img
-              src={project.img_url || "/Images/sample-image.png"}
+              src={"/Images/sample-image2.png"}
               alt={`${project.name} screenshot`}
               className="project-icon"
             />

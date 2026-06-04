@@ -25,7 +25,7 @@ function Home(){
             <div className="right">
            
                 <div className="container">
-               <img src='/Images/me-bg.png' className='responsive-img' alt='thats me mdr'></img>
+               <img src='/Images/mark-rodrigo.png' className='responsive-img' alt='thats me mdr' style={{'border-radius':'50%'}}></img>
                 </div>
             </div>
         </main>

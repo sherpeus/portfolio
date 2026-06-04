@@ -1,0 +1,28 @@
+.article-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.article-card .article-img{
+    border-radius: 10px;
+    height: auto;
+    width: 50%;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.article-card h4{
+    margin-left: 10px;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color:red;
+}

@@ -10,6 +10,43 @@ const Skills = [
     difficulty:2
   },
   {
+    name:"gpt2-lora-chatbot",
+    technology:["Python","Tensorflow","Huggingface ecosystem","GPT2","LLM Finteuning","LORA"],
+    description:"A conversational AI project demonstrating parameter-efficient fine-tuning of GPT-2 using LoRA adapters and the Hugging Face ecosystem.",
+    img_url:"",
+    available:true,
+    link:"https://github.com/sherpeus/gpt2-lora-chatbot",
+    difficulty:3
+  },
+  {
+    name:"NanoServe",
+    technology: ["Python","MySQL","Typer (CLI)"],
+    description:"NanoServe is a lightweight, high-performance, and memory-safe Command Line Interface (CLI) utility built in Python designed to handle database diagnostics and automated backups. Instead of relying on heavy corporate software, NanoServe operates close to the system level, using asynchronous streaming and compression to back up massive databases with near-zero memory overhead.",
+    img_url:"",
+    available:true,
+    link:"https://github.com/sherpeus/NanoServe",
+    difficulty:3
+  },
+  {
+    name: "Vector database from scratch",
+    technology:["python","HNSW Algorithm","DSA"],
+    description:"A lightweight, high-performance vector database engine implementing the Hierarchical Navigable Small World (HNSW) algorithm from scratch in pure Python.",
+    img_url:"",
+    available:true,
+    link:"https://github.com/sherpeus/hnsw-from-scratch",
+    difficulty:3
+
+  },
+  {
+    name: "cache-proxy",
+    technology: ["Typescript","Express js","Node js"],
+    description: "A lightweight, high-performance Command Line Interface (CLI) caching proxy server built with TypeScript, Node.js, and Express.This tool intercepts incoming HTTP requests, forwards them to a specified origin server, caches the responses in memory, and serves subsequent identical requests straight from the cache to drastically reduce latency and network overhead.",
+    img_url:"",
+    available:true,
+    link:"https://github.com/sherpeus/cache-proxy",
+    difficulty:2
+  },
+  {
     name: "Owl",
     technology: ["python","DSA"],
     description: "It’s a basic programming language I built to learn DSA. It supports up to recursion — no fancy data structures.",

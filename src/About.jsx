@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./css/About.css";
+import MediumArticles from "./MediumArticles";
 
 function About() {
   const [loaded, setLoaded] = useState(false);
@@ -29,7 +30,9 @@ const languages = [
   { name: "SQL", logo: "sqlite",type:"l" },
   { name: "React", logo: "react",type:"l" },
   { name: "Elasticsearch", logo: "elasticsearch",type:"l" },
-  { name: "NoSQL", logo: "mongodb",type:"l" }
+  { name: "NoSQL", logo: "mongodb",type:"l" },
+  {name: 'Typescript', logo: "typescript",type:'1'},
+  {name: 'Express js', logo: "expressjs", type: '1'}
 ];
 
 const technologies = [
@@ -39,24 +42,29 @@ const technologies = [
   { name: "GitHub", logo: "github",type:"t" },
   { name: "Intellij IDEA", logo: "intellijidea",type:"t" },
   { name: "Flask", logo: "flask",type:"t" },
-  { name: "Firebase", logo: "firebase",type:"t" }
+  { name: "Firebase", logo: "firebase",type:"t" },
+  {name: "MongoDB", logo:'mongodb', type:'2'},
+  {name: "Postgress SQL", logo:'postgress', type:'2'}
 ];
 
 const concepts = [
   { name: "DSA", logo: "",type:"c" },
   { name: "Machine Learning", logo: "",type:"c" },
   { name: "Deep Learning", logo: "",type:"c" },
-  { name: "OOP", logo: "",type:"c" }
+  { name: "OOP", logo: "",type:"c" },
+  {name: "Client Server Architecture", logo:"",type: "c"}
 ];
   return (
     <div className={`about-main ${loaded ? "fade-in" : ""}`}>
       <div className="intro">
-        <h2>Hey, I'm <span className="red">Mark Dinol</span></h2>
-        <p>
+        
+        {/*<h2>Hey, I'm <span className="red">Mark Dinol</span></h2>*/}
+       
+        {/*<p>
           I’m a competitive programmer, machine learning enthusiast, self-taught painter, and lifelong chess player.  
           Also, a forever Potterhead and proud Percy Jackson fan, because life’s better with a little magic and mythology.  
           Whether I’m solving problems, mixing colors, or strategizing on the chessboard, I love blending logic with creativity.
-        </p>
+        </p>*/}
       </div>
     <h3>Skills & tools I'm Familiar with</h3><br/><br/>
       <div className="badges">
@@ -81,13 +89,23 @@ const concepts = [
     ,cursor:"pointer"}} />
   ))}
 </div>
+      </div><br></br>
+      <hr></hr>
+    <div className="articles">
+      <br></br>
+      <h3>Articles I have Written</h3>
+      <div className="article-section">
+      <MediumArticles/>
       </div>
 
-      <div className="contact-sec">
-        <p>Have a project or just want to say hi? I’d love to chat!</p> 
-        <NavLink to="/contact">
-          <button className="contact-b2">Get in Touch</button>
-        </NavLink>
+    </div>
+    <br></br>
+    <hr></hr>
+      <div className="contact-sec"><br></br>
+        <p>Have a project or just want to say hi? I’d love to chat!<br></br><NavLink to="/contact">
+          <a className="contact-b2">Get in Touch</a>
+        </NavLink></p> 
+        
       </div>
     </div>
   );
