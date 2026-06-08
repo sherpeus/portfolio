@@ -1,6 +1,15 @@
 
 const Skills = [
   {
+    name: "load-balanced-event-ingestion",
+    technology: ["Nginx","Node js","Express js","sqllite3"],
+    description:"A high-performance, fault-tolerant log ingestion and analytics pipeline built to demonstrate the principles of horizontal scaling, layer-7 load balancing, and database query optimization.",
+    img_url:"",
+    available:true,
+    link:"https://github.com/sherpeus/load-balanced-event-ingestion",
+    difficulty:2
+  },
+  {
     name: "Melodic",
     technology: ["python", "sqllite3", "pytube", "customtkinter", "pygame", "pyaudio","threading"],
     description: "It is used to download youtube videos for free using its URL. The app converts the video into mp3 and stores it in the database. We can play them later using the app. This was made only for educational purposes. The project is not added to github to avoid ethical issues. Therefore the project link will redirect you to the video where I shows how made the application",
