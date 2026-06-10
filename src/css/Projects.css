@@ -44,10 +44,61 @@ h1, h2,h3,h4, .latin {
 }.project-card:hover {
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   transform: translateY(-5px);
-  background: #ffffff; /* optional: brighten background on hover */
+  background: #ffffff; 
 }
 .fade-in {
   animation: fadeIn 1s ease-in forwards;
+}
+
+
+.project-card {
+  position: relative;
+  overflow: hidden; 
+}
+
+
+.project-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10; 
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #fff;
+}
+
+
+.project-badge.project {
+  background-color: #FFAB08; 
+}
+
+.project-badge.concept {
+  background-color: #76BA9D; 
+}
+
+
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.filter-container button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ccc;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.filter-container button.active-filter {
+  background: red; 
+  color: white;
+  border-color: transparent;
 }
 
 @keyframes fadeIn {

@@ -16,6 +16,7 @@ const MediumArticles = () => {
   }, []);
 
 
+
   const getArticleImage = (article) => {
 
     if (article.thumbnail) return article.thumbnail;
@@ -30,7 +31,7 @@ const MediumArticles = () => {
 
   return (
     <div className="article-grid">
-      {articles.map((article) => (
+      {articles.slice(0,articles.length-2).map((article) => (
         <div key={article.guid} className="article-card">
           
           <img 

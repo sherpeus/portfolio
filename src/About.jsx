@@ -12,9 +12,9 @@ const FG_COLOR = "E5EFC1";
     setLoaded(true);
   }, []);
   const TYPE_COLORS = {
-  l: "4F8FC0", 
-  t: "53D2DC", 
-  c: "26648E"  
+  l: "cc183c", 
+  t: "76ba9d", 
+  c: "ff8104"  
 };
 const getBadgeUrl = (name, logo,type) => {
   const encodedName = encodeURIComponent(name);
@@ -31,20 +31,23 @@ const languages = [
   { name: "React", logo: "react",type:"l" },
   { name: "Elasticsearch", logo: "elasticsearch",type:"l" },
   { name: "NoSQL", logo: "mongodb",type:"l" },
-  {name: 'Typescript', logo: "typescript",type:'1'},
-  {name: 'Express js', logo: "expressjs", type: '1'}
+  {name: 'Typescript', logo: "typescript",type:'l'},
+  {name: 'Express js', logo: "expressjs", type: 'l'}
 ];
 
 const technologies = [
-  { name: "VS Code", logo: "visualstudiocode",type:"t" },
-  { name: "Figma", logo: "figma",type:"t" },
+  
   { name: "Git", logo: "git",type:"t" },
   { name: "GitHub", logo: "github",type:"t" },
   { name: "Intellij IDEA", logo: "intellijidea",type:"t" },
   { name: "Flask", logo: "flask",type:"t" },
+  {name:"JAXRS",logo:"jax-rs",type:"t"},
   { name: "Firebase", logo: "firebase",type:"t" },
-  {name: "MongoDB", logo:'mongodb', type:'2'},
-  {name: "Postgress SQL", logo:'postgress', type:'2'}
+  {name: "MongoDB", logo:'mongodb', type:'t'},
+  {name: "Postgress SQL", logo:'postgress', type:'t'},
+  {name: "Nginx",logo:"nginx",type:"t"},
+  { name: "VS Code", logo: "visualstudiocode",type:"t" },
+  { name: "Figma", logo: "figma",type:"t" }
 ];
 
 const concepts = [
